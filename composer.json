@@ -1,0 +1,22 @@
+{
+    "name": "eecjimmy/basic",
+    "description": "basic development packages",
+    "type": "library",
+    "authors": [
+        {
+            "name": "eecjimmy",
+            "email": "eecjimmy@163.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "eecjimmy\\Basic\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.0"
+    },
+    "require-dev": {
+        "ext-json": "*"
+    }
+}
